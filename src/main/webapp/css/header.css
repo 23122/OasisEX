@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url("reset.css");
+
+header>.wrap {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#ht {
+	height: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#hc {
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.line li {
+	float: left;
+	margin-right: 5px;
+}
+
+.line li::before {
+	padding-left: 5px;
+	padding-right: 5px;
+	content: "|";
+	color: rgb(56, 60, 63);
+}
+
+.line li:first-child::before {
+	content: "";
+}
+
+.seach li button {
+	background: url(/images/common/gnbSearch.png) no-repeat center center;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #d6d6d6;
+	border-left: 0px solid #d6d6d6;
+	cursor: pointer;
+	text-align: center;
+}
+
+.seach li input {
+	width: 290px;
+	height: 40px;
+	border: 1px solid lightgray;
+	padding-left: 15px;
+	outline: none;
+	font-size: 14px;
+}
