@@ -1,3 +1,35 @@
 @charset "UTF-8";
+
 @import url("header.css");
+
 @import url("footer.css");
+
+/*////////////////////////*/
+/* visual영역 */
+#visual>.area {
+	width: 815px;
+	height: 363px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#visual>.area .imgs{
+	position: relative;
+}
+#visual>.area .imgs li{
+	margin-right: 15px; 
+}
+#visual>.area .imgs li:last-child{
+	margin-right: 0; 
+}
+#visual>.area .imgs li a{
+	display: block;
+	width: 400px;
+	height: 363px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#main-con.wrap {
+	width: 1024px;
+	margin: 0 auto;
+}
