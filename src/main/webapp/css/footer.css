@@ -8,7 +8,7 @@ footer>.wrap {
 }
 
 #ft {
-	height: 45px;
+	height: 65px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

@@ -20,10 +20,20 @@
 				<h1>비쥬얼영역</h1>
 				<div class="wrap area">
 					<ol class="imgs flex">
-						<c:forEach varStatus="i" begin="1" end="18">
-							<li><a href="#"></a></li>
+						<c:forEach varStatus="i" begin="0" end="17">
+							<li value="${i.index}"><a href="#"></a></li>
 						</c:forEach>
 					</ol>
+					<!--//////////////////////////////-->
+					<div>
+						<button class="btn prev" type="button">&lt;<!-- &nbsp;&lt; --></button>
+						<button class="btn next" type="button">&gt;</button>
+					</div>
+					<ul class="bullet flex between">
+						<c:forEach varStatus="i" begin="1" end="18">
+							<li></li>
+						</c:forEach>
+					</ul>
 				</div>
 			</section>
 			<section id="main-con">
