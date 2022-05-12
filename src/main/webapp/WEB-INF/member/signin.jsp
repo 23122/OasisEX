@@ -68,9 +68,11 @@
 					<li>
 						<p>
 							<a href="<%=request.getContextPath()%>/member/signup">
-								가입하시면 첫구매 100원!</a>
+								가입하시면 첫구매 100원!
+							</a>
 							<a href="<%=request.getContextPath()%>/member/signup">
-								회원가입 ></a>
+								회원가입 >
+							</a>
 						</p>
 					</li>
 				</ul>
