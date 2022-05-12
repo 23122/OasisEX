@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="./js/visual.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
 <link rel="stylesheet"
 	href="<%=request.getContextPath()%>/css/index.css">
 </head>
@@ -26,7 +27,10 @@
 					</ol>
 					<!--//////////////////////////////-->
 					<div>
-						<button class="btn prev" type="button">&lt;<!-- &nbsp;&lt; --></button>
+						<button class="btn prev" type="button">
+							&lt;
+							<!-- &nbsp;&lt; -->
+						</button>
 						<button class="btn next" type="button">&gt;</button>
 					</div>
 					<ul class="bullet flex between">
@@ -38,7 +42,48 @@
 			</section>
 			<section id="main-con">
 				<h1>메인컨텐츠</h1>
-				<div class="flex wrap"></div>
+				<div class="wrap">
+					<!-- 타임특가 -->
+					<section id="time">
+						<h1>타임특가</h1>
+						<div class="wrap">
+							<!-- time-list.jsp -->
+						</div>
+						<div>
+							<button class="btn prev" type="button">&lt;</button>
+							<button class="btn next" type="button">&gt;</button>
+						</div>
+						<ol class="bullet flex center">
+							<li></li>
+							<li></li>
+						</ol>
+					</section>
+					<!-- ////////////////////////////// -->
+					<!-- 오! 감동 -->
+					<section id="prod">
+						<h1>오감동 영역</h1>
+						<div class="wrap">
+							<div class="info">
+								<p class="tit">오!감동</p>
+								<p class="sub">매일매일 오아시스에 가고 싶은 이유, 오아시스가 드리는 감동</p>
+							</div>
+							<div class="disp">
+								<!-- list.jsp -->
+							</div>
+							<div class="flex between">
+								<div>
+									<a href="#">#바다의선물</a>
+									<a href="#">#땅의황제</a>
+									<a href="#">#제주의청정함</a>
+								</div>
+								<div>
+									<a href="#">오!감동 상품 더보기</a>>
+								</div>
+							</div>
+						</div>
+					</section>
+					<!-- ////////////////////////////// -->
+				</div>
 			</section>
 		</div>
 	</main>

@@ -11,7 +11,7 @@
 				<section id="htl">
 					<h1>해더상단왼쪽</h1>
 					<h2 class="logo">
-						<a href="/"> <img alt="OASiS" src="images/common/h1_logo.png">
+						<a href="<%=request.getContextPath()%>"> <img alt="OASiS" src="/web0502/images/common/h1_logo.png">
 						</a>
 					</h2>
 					<div class="wrap">
@@ -27,8 +27,8 @@
 					<h1>해더상단오른쪽</h1>
 					<div class="wrap">
 						<ul class="line flex">
-							<li><a href="#">로그인</a></li>
-							<li><a href="#">회원가입</a></li>
+							<li><a href="<%=request.getContextPath()%>/member/signin">로그인</a></li>
+							<li><a href="<%=request.getContextPath()%>/member/signup">회원가입</a></li>
 							<li><a href="#">베스트 후기</a></li>
 							<li><a href="#">주문/배송조회</a></li>
 							<li><a href="#">장바구니</a></li>

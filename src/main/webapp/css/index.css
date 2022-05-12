@@ -9,10 +9,11 @@
 #visual .area {
 	position: relative;
 	width: 815px;
+	padding-top: 35px;
 }
 /* 이미지하단버튼 */
 #visual .bullet {
-	margin-top: -33px;
+	margin-top: -68px;
 	margin-left: 150px;
 	margin-right: 150px;
 }
@@ -28,11 +29,13 @@
 	border-radius: 10px;
 	text-align: center;
 }
+
 #visual .bullet li:hover {
 	cursor: pointer;
 	background-color: #fff;
 	opacity: 0.7;
 }
+
 .target {
 	cursor: pointer !important;
 	background-color: #fff !important;
@@ -99,7 +102,239 @@
 	border-radius: 7px;
 }
 
-#main-con.wrap {
+/* 특가상품 */
+#time .timg {
+	position: relative;
+}
+
+#time .timg .rate {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	color: white;
+	line-height: 49px;
+	text-align: center;
+	border-radius: 8px;
+	background-color: #629c01;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 8px
+}
+
+#time .timg img {
+	border-radius: 8px;
+}
+
+#time .timg img:hover {
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+#time .timg .rate span {
+	font-size: 12px;
+}
+
+#time .goods .wrap {
+	padding: 0 31px;
+	width: 342px;
+}
+
+#time .goods .wrap .sold-out p {
+	color: white;
+	background-color: #333;
+	padding: 2px 0.5em 3px;
+	border-radius: 5px;
+}
+
+#time .goods .wrap .sold-out div {
+	padding-top: 3px;
+	font-size: 0.8em;
+	color: gray;
+}
+
+#time .goods .wrap .sold-out div span {
+	color: gray;
+	font-size: 0.9em;
+}
+
+#time .goods .wrap .sale-goods {
+	padding-top: 3px;
+	font-weight: bold;
+}
+
+#time .goods .wrap .price {
+	padding-top: 3px;
+	color: #629c01;
+	font-weight: bold;
+}
+
+#time .goods .wrap .price span:nth-child(1) {
+	color: #629c01;
+	font-size: 18px;
+}
+
+#time .goods .wrap .price span:nth-child(2) {
+	color: white;
+	font-weight: normal;
+	width: 100px;
+	background-color: #629c01;
+	padding: 0px 7px;
+	border-radius: 4px;
+}
+/* time-bullet */
+#time>.wrap {
+	width: 1024px;
+	overflow: hidden;
+}
+
+.btarget {
+	cursor: pointer !important;
+	background-color: #191919 !important;
+	opacity: 0.7 !important;
+}
+
+#time .bullet li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 10px;
+	height: 10px;
+	opacity: 0.6;
+	border-color: #fff;
+	background-color: #fff;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#time .bullet li:first-child {
+	margin-right: 7px;
+}
+
+#time .bullet li:hover {
+	cursor: pointer;
+	background-color: #191919;
+	opacity: 0.7;
+}
+
+#time .bullet {
+	background-color: lightgray;
+	margin: 0 auto;
+	height: 35px;
+	border-radius: 10px;
+}
+
+#time {
+	background-color: lightgray;
+	margin-bottom: 30px;
+	border-radius: 7px;
+	background-color: lightgray;
+}
+/* sale-next,prev */
+#time .btn:hover {
+	cursor: pointer;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+#time .btn {
+	width: 40px;
+	height: 40px;
+	font-family: 'Monoton', cursive;
+	font-size: 23px;
+	font-weight: 700;
+	border-radius: 20px;
+	position: absolute;
+	top: 200px;
+	opacity: 0.3;
+	border-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.4);
+	color: lightgray;
+	border-style: none;
+}
+
+#time .prev {
+	padding-right: 3px;
+	left: 3px;
+}
+
+#time .next {
+	padding-left: 3px;
+	right: 3px;
+}
+/* ////////goodsList///// */
+#prod {
+	width: 1026px;
+	height: 613px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+#prod .disp {
+	padding-bottom: 55px;
+}
+
+#prod .wrap .info {
+	padding-bottom: 15px;
+}
+
+#prod .wrap .info .tit {
+	font-size: 32px;
+	font-weight: 600;
+	color: gray;
+	text-align: center;
+}
+
+#prod .good-list {
+	width: 245px;
+	height: 328px;
+}
+
+#prod .wrap .info .sub {
+	font-size: 18px;
+	font-weight: 400;
+	color: lightgray;
+	text-align: center;
+}
+
+#prod .g-img {
+	border-radius: 4px; height : 245px;
+	width: 245px;
+	height: 245px;
+}
+
+#prod .g-img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+#prod .oh .title {
+	color: #191919;
+	padding: 12px 8px;
+}
+
+#prod .oh .allPrice {
+	padding: 0px 8px;
+	padding-bottom: 12px;
+}
+
+#prod .oh .org {
+	font-size: 15px;
+	text-decoration: line-through;
+	color: lightgray;
+}
+
+#prod .oh .sale {
+	color: #191919;
+}
+
+#prod .oh .saleRate {
+	font-weight: 800;
+	color: #629c01;
+}
+
+#main-con .wrap {
+	position: relative;
 	width: 1024px;
 	margin: 0 auto;
+	margin-top: 50px;
 }

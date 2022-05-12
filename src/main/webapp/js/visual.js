@@ -66,7 +66,7 @@ $(function() {
 
 	$("#visual .next").click(nextClicked);
 	$("#visual .prev").click(prevClicked);
-	$(".bullet li").click(bulletClicked);
+	$("#visual .bullet li").click(bulletClicked);
 });
 
 function bulletClicked() {
@@ -162,7 +162,7 @@ function prev() {
 	//-size에서 0픽셀로 이동
 	imgs.animate({ left: 0 }, speed, function() {
 		//-size 만큼 설정된 left값 0으로 수정
-		imgs.css("left", 0)
+		imgs.css("left", 0);
 		blis.removeClass("target");
 		blis.eq(li_fv % blis.length - 1).addClass("target");
 	});

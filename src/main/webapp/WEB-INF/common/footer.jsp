@@ -19,7 +19,7 @@
 			</div>
 		</section>
 		<!--//////////////////////////////////////-->
-		<section id="hc">
+		<section id="fc">
 			<h1>푸터중간</h1>
 			<div class="wrap footerContent">
 				<div class="customerCenter">
@@ -32,7 +32,7 @@
 			</div>
 		</section>
 		<!--//////////////////////////////////////-->
-		<section id="hb">
+		<section id="fb">
 			<div class="footerInfo">
 				<address>
 					서울사무소 : 서울시 서초구 서초중앙로8길 117 지어소프트빌딩 6층 오아시스마켓<br>성남본사 : 경기도

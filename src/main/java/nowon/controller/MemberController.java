@@ -19,8 +19,10 @@ public class MemberController extends HttpServlet {
 		String key = strs[strs.length - 1];
 		String path = null;
 		if (key.equals("signup")) {
+			System.out.println("회원가입");
 			path = "/WEB-INF/member/signup.jsp";
 		} else if (key.equals("signin")) {
+			System.out.println("로그인");
 			path = "/WEB-INF/member/signin.jsp";
 		}else if(key.equals("list")){
 			path = "/WEB-INF/board/list.jsp";
